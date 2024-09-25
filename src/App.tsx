@@ -1,9 +1,12 @@
 import './App.css'
 
+import Logo from '../public/logo512.png'
+
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <img src={Logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
